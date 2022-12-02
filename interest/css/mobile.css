@@ -1,0 +1,180 @@
+@font-face{
+    font-family: tommy;
+    src: url("../fonts/tommy.otf");
+}
+
+body{
+    font-family : tommy;
+    background: url("../images/wall.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* makes the background image full screen */
+    margin : 0 auto;
+}
+
+
+#wrap{
+    width :100vw;
+    border : solid 0px black;
+    margin : 0 auto;
+    border-radius : 10px;
+}
+
+header{
+    border : solid 0px black;
+}
+
+#logo{
+    border : solid 0px black;
+    text-align : center;
+    font-weight : bold;
+    height : 80px;
+    color : skyblue;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 234, 72, 0.4);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    display : flex;
+}
+
+nav ul a:link{
+    flex-grow : 1;
+    text-align : center;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    color : black;
+}
+
+nav ul a:hover{
+    background : rgb(0, 31, 85);
+    color : white;
+}
+
+nav ul a:visited{
+    color : white;
+}
+
+nav ul a:focus{
+
+}
+
+nav ul a:active{}
+
+#mainArea{
+    border : solid 0px black;
+    background-color: rgb(255, 234, 72, 0.4);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    display : flex;
+    flex-wrap : wrap;
+    justify-content: center;
+}
+
+.featuredFilm{
+    border : solid 0px black;
+    background-color: rgb(0, 31, 85);
+    padding : 20px;
+    width : 400px;
+    height : auto;
+    margin : 30px;
+    color : white;
+}
+
+.featuredFilm img{
+    width : 100%;
+    height : auto;
+}
+
+.featuredFilm p{
+    text-align: left;
+}
+
+/*game.html*/
+
+#mainDesc{
+    border:solid 0px black;
+    width:100%;
+}
+
+#mainDesc h1{
+    font-size : 50px;
+    text-align: center;
+    padding : 20px;
+}
+
+#mainDesc section{
+    border:solid 0px black;
+    min-height : 25vh;
+    display: flex;
+    flex-direction : column;
+}
+
+.avatar{
+    order : 1;
+}
+
+.avatar img{
+    border:solid 0px black;
+    width : 100vw;
+    height : auto;
+}
+
+.avatarDesc{
+    border:solid 0px black;
+    background-color: rgb(0, 31, 85);
+    color : white;
+    width : 100vw;
+    flex-wrap : wrap;
+    justify-content: center;
+    order : 2;
+}
+
+.descriptionContent{
+    text-indent : 50px;
+    line-height : 2.0;
+    padding-bottom: 40px;
+    padding-left : 40px;
+    padding-right : 40px;
+}
+
+/* console.html */
+
+#musicVideo section{
+    width : 100vw;
+}
+
+.video{
+    height : 600px;
+}
+
+.videoDesc{
+    padding : 40px;
+    background-color: rgb(0, 31, 85);
+    color : white;
+}
+
+.videoDesc h1{
+    font-size : 50px;
+    text-align: center;
+    padding : 30px;
+}
+
+footer{
+    text-align : center;
+    color : white;
+}

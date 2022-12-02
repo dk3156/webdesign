@@ -1,0 +1,23 @@
+.row{
+    border : solid 1px green;
+}
+
+.cold-md-1, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-med-12{
+    border : solid 1px black;
+}
+
+.custom_header{
+    min-height : 200px;
+}
+
+.custom_nav{
+    min-height : 200px;
+}
+
+.custom_mainArea{
+    min-height : 100px;
+}
+
+.custom_footer{
+    min-height : 200px;
+}

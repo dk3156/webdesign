@@ -1,0 +1,94 @@
+@font-face{
+    font-family: tommy;
+    src: url("../fonts/tommy.otf");
+}
+
+@font-face{
+    font-family: typewriter;
+    src: url("../fonts/Typo.otf");
+}
+
+body{
+    border : solid 1px black;
+    background : white;
+    color : #526144;
+}
+
+
+.col-md-12,
+.col-md-4,
+.col-md-6{
+    border : solid 0px black;
+}
+
+.btn-primary{
+    margin-right: 30px;
+}
+
+#carouselExampleCaptions img{
+    max-height : 650px;
+    border-radius: 10pt;
+}
+
+iframe{
+     border-radius : 10pt;
+}
+
+.carousel-caption{
+    color : white;
+}
+
+.navbar-brand{
+    font-family : typewriter;
+    font-size : 40pt;
+}
+
+.marginTopBottom{
+    margin-top : 50px;
+    margin-bottom : 50px;
+}
+
+.card-img-top{
+    height : 200px;
+    width : auto;
+}
+
+.card-text{
+    min-height : 100px;
+}
+
+.nopadding{
+    padding : 0px;
+}
+
+.donateBtn{
+    width : 100%;
+    margin-bottom : 20px;
+}
+
+
+.marginTop{
+    margin-top : 20px;
+}
+
+.footer{
+    min-height : 25vh;
+}
+
+.footer i{
+    color : #011500;
+    font-size : 20pt;
+    margin : 10px;
+}
+
+.footer i:hover{
+    color : green;
+    cursor : pointer;
+}
+
+@media (max-width: 650px)
+{
+    .nopadding{
+        padding : px;
+    }
+}

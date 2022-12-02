@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Personal : About me</title>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <style>
+        body{
+            background: url("images/twodogs.webp") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            padding : 100px;
+        }
+    </style>
+ </head>
+ <body>
+    <div id="wrap">
+        <header>
+            <a href="index.html" id="logo">
+                <div>
+                    Personal Site
+                </div>
+            </a>
+                <nav>
+                    <ul>
+                        <a href="about.html">
+                        <li>
+                            About
+                        </li>
+                        </a>
+                        <a href="contact.html">
+                        <li>
+                            Contact
+                        </li>
+                        </a>
+                        <a href="../index.html" id="lastItem">
+                        <li>
+                            Portfolio
+                        </li>
+                        </a>
+                    </ul>
+                </nav>
+        </header>
+        <article>
+            <section id="pic">
+                <h1>Click to go to Google</h1>
+                <a href="https://www.google.com" target="_blank"> <img src="images/babyturtle.jpeg" width="300px" height="auto"/> </a>
+            </section>
+            <section id="contact">
+                <h1>Contact Info</h1>
+                <p>
+                    email: dk3156@nyu.edu
+                    <br>
+                    phone number: 949-305-4982
+                </p>
+            </section>
+            <form action="thankyou.html" method="POST">
+            <table border="1" width="960px" align="center">
+                <tr>
+                    <td colspan="2">
+                        Fillout this form to contact me :)
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter your name:</td>
+                    <td>
+                        <input type="text" name="username" id="username" placeholder="Enter your name here..."/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter your password:</td>
+                    <td>
+                        <input type="password" name="password" id="password" placeholder="Enter your password here..."/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Specify your topic:</td>
+                    <td>
+                        <select name="topic">
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Bash">Bash</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter your class days:</td>
+                    <td>
+                        <input type="checkbox" name="classDay" value="M"/> Monday
+                        <input type="checkbox" name="classDay" value="T"/> Tuesday
+                        <input type="checkbox" name="classDay" value="W"/> Wednesday
+                        <input type="checkbox" name="classDay" value="Th"/> Thursday
+                        <input type="checkbox" name="classDay" value="F"/> Friday
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter your time of days:</td>
+                    <td>
+                        <input type="radio" name="time" value="AM"/> AM
+                        <input type="radio" name="time" value="PM"/> PM
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Enter your message:</td>
+                    <td>
+                        <textarea value="message" placeholder="message goes here" cols="20" rows="20"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="reset" value="Clear Form"/>
+                        <input type="submit" value="Submit Form"/>
+                        <input type="button" value="Just a button"/>
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </article>
+        <br/>
+        <footer>
+            <section id="socialmedia">
+                <img src="images/instagram.svg"/>
+                <img src="images/youtube.svg"/>
+            </section>
+        </footer>
+    </div>
+ </body>
+</html>
